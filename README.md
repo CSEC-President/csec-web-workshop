@@ -211,17 +211,27 @@ By participating, you acknowledge understanding these terms and agree to use thi
 
 ## Additional Resources
 Beginner resources:
-- Damn Vulnerable Web Application Repository: https://github.com/digininja/DVWA
 - PwnFunction's YT video on IDOR: https://www.acunetix.com/blog/articles/dom-xss-explained/
 - OWASP Unrestricted File Upload Guide: https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
 - OWASP Cross Site Scripting (XSS) Guide: https://owasp.org/www-community/attacks/xss/
-- Acutenix XSS Guide (very easy to understand!): https://www.acunetix.com/blog/articles/dom-xss-explained/
+- Acutenix DOM XSS Guide (very easy to understand!): https://www.acunetix.com/blog/articles/dom-xss-explained/
 - OWASP SQL Injection Guide: https://owasp.org/www-community/attacks/SQL_Injection
+- OWASP Top Ten Web Attack Types (2025 verision set to release next month): https://owasp.org/www-project-top-ten/
 
 Advanced resources:
-- OWASP Top Ten Web Attack Types (2025 verision set to release next month): https://owasp.org/www-project-top-ten/
-  
-# TODO: Resources must be split into 2 sections: Beginner and Advanced. The Beginner section includes materials that elaborate on the session's content, while the Advanced section covers topics that are useful to read if a person wants to build something entirely new (such as research or advanced attacks that use variations of the methods you've covered). You can include the resources I gave you here as well. You probably have additional resources you've used while preparing the session.
+
+### Advanced
+
+- [Hakuin - ML-Optimized Blind SQL Injection](https://github.com/pruzko/hakuin) - 6x faster than sqlmap using machine learning, this is the cutting-edge for blind SQLi research (Black Hat MEA 2024)
+- [SQL Injection at Protocol Level](https://simonwillison.net/2024/Aug/12/smuggling-queries-at-the-protocol-level/) - Mind-blowing DEF CON 32 talk showing how to bypass app-layer defenses by exploiting PostgreSQL/MongoDB binary protocols
+- [PHP Filter Chains: LFI to RCE](https://www.synacktiv.com/en/publications/php-filters-chain-what-is-it-and-how-to-use-it) - Transform any LFI into RCE using encoding transformations, includes practical exploitation tool
+- [Bypassing DOMPurify with Mutation XSS](https://portswigger.net/research/bypassing-dompurify-again-with-mutation-xss) - Fresh 2024 techniques for XSS, shows why sanitizers still fail through browser parsing tricks
+- [The State of GraphQL Security 2024](https://escape.tech/blog/the-state-of-graphql-security-2024/) - Scanned 160 real APIs and found 69% vulnerable to DoS, super informative for modern API research
+- [JWT Algorithm Confusion Attacks](https://portswigger.net/web-security/jwt/algorithm-confusion) - Clear explanation of how to forge JWTs, still working in 2024 (CVE-2024-54150), great for understanding auth bypasses
+- [OWASP API Security Top 10 2023](https://owasp.org/API-Security/) - BOLA is still #1 affecting 40% of APIs, must-read for API security projects
+- [NoSQL Injection Guide](https://portswigger.net/web-security/nosql-injection) - Best comprehensive guide for MongoDB/Neo4j attacks with hands-on labs, very practical
+- [IDOR Detection with AI](https://zeropath.com/blog/idor-crisis-2025) - LLMs find authorization bugs in minutes vs. hours manually, 53% critical vuln discovery rate
+- [Command Injection ML Detection](https://www.nature.com/articles/s41598-024-74350-3) - Solid paper on deep learning for detecting command injection, great if you want to build detection tools (2024)
 
 ---
 
