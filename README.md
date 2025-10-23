@@ -219,9 +219,6 @@ Beginner resources:
 - OWASP Top Ten Web Attack Types (2025 verision set to release next month): https://owasp.org/www-project-top-ten/
 
 Advanced resources:
-
-### Advanced
-
 - [Hakuin - ML-Optimized Blind SQL Injection](https://github.com/pruzko/hakuin) - 6x faster than sqlmap using machine learning, this is the cutting-edge for blind SQLi research (Black Hat MEA 2024)
 - [SQL Injection at Protocol Level](https://simonwillison.net/2024/Aug/12/smuggling-queries-at-the-protocol-level/) - Mind-blowing DEF CON 32 talk showing how to bypass app-layer defenses by exploiting PostgreSQL/MongoDB binary protocols
 - [PHP Filter Chains: LFI to RCE](https://www.synacktiv.com/en/publications/php-filters-chain-what-is-it-and-how-to-use-it) - Transform any LFI into RCE using encoding transformations, includes practical exploitation tool
