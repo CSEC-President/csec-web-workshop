@@ -12,7 +12,7 @@ A hands-on introduction to web application security testing using DVWA and OWASP
 
 ## Workshop Structure
 
-This workshop consists of two parts: DVWA for learning fundamental web vulnerabilities, and OWASP Juice Shop for modern application security challenges. Topics covered include IDOR, XXE injection, XSS, SQL injection, and HTTP verb tampering.
+This workshop consists of two parts: DVWA for learning fundamental web vulnerabilities, and OWASP Juice Shop for modern application security challenges. Topics covered include IDOR, XXE injection, XSS, and SQL injection.
 
 ## Workshop Workflow
 The workflow for this workshop is straightforward: install either DVWA or OWASP Juice Shop using the Docker commands provided (if these don't work for you for some reason, use the official installation instructions from the links below), then follow the built-in tutorials and challenges within each application. Both platforms include comprehensive instructions, hints, and documentation created by their developers.
