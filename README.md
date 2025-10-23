@@ -211,13 +211,15 @@ By participating, you acknowledge understanding these terms and agree to use thi
 
 ## Additional Resources
 Beginner resources:
-- PwnFunction's YT video on IDOR : https://www.acunetix.com/blog/articles/dom-xss-explained/
-- OWASP Unrestricted File Upload Guide : https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
-- OWASP Cross Site Scripting (XSS) Guide : https://owasp.org/www-community/attacks/xss/
-- Acutenix XSS Guide (very easy to understand!) : https://www.acunetix.com/blog/articles/dom-xss-explained/
-- OWASP SQL Injection Guide : https://owasp.org/www-community/attacks/SQL_Injection
+- Damn Vulnerable Web Application Repository: https://github.com/digininja/DVWA
+- PwnFunction's YT video on IDOR: https://www.acunetix.com/blog/articles/dom-xss-explained/
+- OWASP Unrestricted File Upload Guide: https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+- OWASP Cross Site Scripting (XSS) Guide: https://owasp.org/www-community/attacks/xss/
+- Acutenix XSS Guide (very easy to understand!): https://www.acunetix.com/blog/articles/dom-xss-explained/
+- OWASP SQL Injection Guide: https://owasp.org/www-community/attacks/SQL_Injection
+
 Advanced resources:
-- OWASP Top Ten Web Attack Types (2025 verision set to release next month) : https://owasp.org/www-project-top-ten/
+- OWASP Top Ten Web Attack Types (2025 verision set to release next month): https://owasp.org/www-project-top-ten/
   
 # TODO: Resources must be split into 2 sections: Beginner and Advanced. The Beginner section includes materials that elaborate on the session's content, while the Advanced section covers topics that are useful to read if a person wants to build something entirely new (such as research or advanced attacks that use variations of the methods you've covered). You can include the resources I gave you here as well. You probably have additional resources you've used while preparing the session.
 
